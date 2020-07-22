@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import abyssImg from '../assets/abyss.jpg';
-import waterfallImg from '../assets/waterfall.jpg';
+
 
 
 
@@ -13,8 +12,9 @@ export default class CarouselBox extends Component {
             <Carousel>
                 <Carousel.Item>
                     <img 
+                        height={700}
                         className="d-block w-100"
-                        src={ abyssImg }
+                        src="https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
                         alt="photo"
                     />
                     <Carousel.Caption>
@@ -25,8 +25,9 @@ export default class CarouselBox extends Component {
 
                 <Carousel.Item>
                     <img 
+                        height={700}
                         className="d-block w-100"
-                        src={ waterfallImg }
+                        src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                         alt="photo"
                     />
                     <Carousel.Caption>
@@ -37,8 +38,9 @@ export default class CarouselBox extends Component {
 
                 <Carousel.Item>
                     <img 
+                        height={700}
                         className="d-block w-100"
-                        src={ abyssImg }
+                        src="https://images.pexels.com/photos/2915997/pexels-photo-2915997.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
                         alt="photo"
                     />
                     <Carousel.Caption>
